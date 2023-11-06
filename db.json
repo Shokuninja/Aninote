@@ -29,6 +29,12 @@
       "title": "Naruto",
       "mangaka": "Masashi Kishimoto",
       "protagonist": "Naruto"
+    },
+    {
+      "title": "Tokyo Ghoul",
+      "mangaka": "Sui Ishida",
+      "protagonist": "Kaneki Ken",
+      "id": 6
     }
   ]
 }

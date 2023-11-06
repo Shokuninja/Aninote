@@ -9,6 +9,7 @@ import { useState, useEffect } from 'react';
 function App() {
 
   const [animes, setAnimes] = useState([])
+  const [formData, setFormData] = useState({})
 
   useEffect(() => {
     fetch('http://127.0.0.1:4000/animes')
@@ -18,10 +19,31 @@ function App() {
     })
   }, [])
 
+  function addAnime(event) {
+    // event.preventDefault()
+
+    fetch('http://127.0.0.1:4000/animes', {
+      method: "POST",
+      headers: {
+        "Content-type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(formData)
+    })
+    .then(response => response.json())
+    .then(newAnime => {
+      setAnimes([...animes, newAnime])
+    })
+  }
+
+  function updateFormData(event) {
+    setFormData({...formData, [event.target.name]: event.target.value})
+  }
+
   const routes = [
     {
       path: "/",
-      element: <Home />
+      element: <Home  updateFormData={updateFormData} addAnime={addAnime} />
     },
 
     {
