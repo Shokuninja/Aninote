@@ -1,0 +1,40 @@
+{
+  "animes": [
+    {
+      "id": 1,
+      "title": "Death Note",
+      "mangaka": "Tsugumi Obata & Takeshi Obata",
+      "protagonist": "Light Yagami"
+    },
+    {
+      "id": 2,
+      "title": "Vinland Saga",
+      "mangaka": "Makoto Yukimura",
+      "protagonist": "Thorfinn Karlsefni"
+    },
+    {
+      "id": 3,
+      "title": "Attack on Titan",
+      "mangaka": "Hajime Isayama",
+      "protagonist": "Eren Yeager"
+    },
+    {
+      "id": 4,
+      "title": "Chainsaw Man",
+      "mangaka": "Tatsuki Fujimoto",
+      "protagonist": "Denji"
+    },
+    {
+      "id": 5,
+      "title": "Naruto",
+      "mangaka": "Masashi Kishimoto",
+      "protagonist": "Naruto"
+    },
+    {
+      "title": "Tokyo Ghoul",
+      "mangaka": "Sui Ishida",
+      "protagonist": "Kaneki Ken",
+      "id": 6
+    }
+  ]
+}
