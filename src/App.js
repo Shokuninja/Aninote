@@ -1,32 +1,50 @@
-import logo from './logo.svg';
 import './App.css';
+import MyAnimeList from "./MyAnimeList";
+import MyCharacterList from "./MyCharacterList";
+import AnimeProfile from "./AnimeProfile";
+import Home from "./Home"
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 function App() {
 
-  function numberAdder(num1, num2) {
-    return num1 + num2;
+  const [animes, setAnimes] = useState([])
 
-    // return 6;
-  }
+  useEffect(() => {
+    fetch('http://127.0.0.1:4000/animes')
+    .then(response => response.json())
+    .then(animeData => {
+      setAnimes(animeData)
+    })
+  }, [])
+
+  const routes = [
+    {
+      path: "/",
+      element: <Home />
+    },
+
+    {
+      path: "/animes",
+      element: <MyAnimeList animes={animes} />
+    },
+
+    {
+      path: "/characters",
+      element: <MyCharacterList />
+    },
+    {
+      path: "/anime-profile/:id",
+      element: <AnimeProfile animes={animes} />
+    }
+  ]
+
+  const router = createBrowserRouter(routes)
 
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <h1>Aninote</h1>
-        <p>Tell us your favotite Anime!</p>
-        <p>{`My favorite number is ${numberAdder(10, 24)}`}</p>
+        <RouterProvider router={router} />
       </header>
     </div>
   );
