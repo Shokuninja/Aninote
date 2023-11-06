@@ -2,6 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  function numberAdder(num1, num2) {
+    return num1 + num2;
+
+    // return 6;
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +24,9 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Aninote</h1>
+        <p>Tell us your favotite Anime!</p>
+        <p>{`My favorite number is ${numberAdder(10, 24)}`}</p>
       </header>
     </div>
   );
