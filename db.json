@@ -4,37 +4,43 @@
       "id": 1,
       "title": "Death Note",
       "mangaka": "Tsugumi Obata & Takeshi Obata",
-      "protagonist": "Light Yagami"
+      "protagonist": "Light Yagami",
+      "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/697c8b5ff2f49a97348b5507c06e1183.jpe"
     },
     {
       "id": 2,
       "title": "Vinland Saga",
       "mangaka": "Makoto Yukimura",
-      "protagonist": "Thorfinn Karlsefni"
+      "protagonist": "Thorfinn Karlsefni",
+      "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/b333f764127c1e06d49aa7ca7c262ff8.jpe"
     },
     {
       "id": 3,
       "title": "Attack on Titan",
       "mangaka": "Hajime Isayama",
-      "protagonist": "Eren Yeager"
+      "protagonist": "Eren Yeager",
+      "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/323c82257b2f6567fabbb7bd55bfa753.jpe"
     },
     {
       "id": 4,
       "title": "Chainsaw Man",
       "mangaka": "Tatsuki Fujimoto",
-      "protagonist": "Denji"
+      "protagonist": "Denji",
+      "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/922742d9acaeba7d887ed11b6caab0e4.jpe"
     },
     {
       "id": 5,
       "title": "Naruto",
       "mangaka": "Masashi Kishimoto",
-      "protagonist": "Naruto"
+      "protagonist": "Naruto",
+      "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/8532171bec0d05bfe45769a330fbab82.jpe"
     },
     {
       "title": "Tokyo Ghoul",
       "mangaka": "Sui Ishida",
       "protagonist": "Kaneki Ken",
-      "id": 6
+      "id": 6,
+      "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/6c496691df13a15aaf9be63caa7fc429.jpe"
     }
   ]
 }
