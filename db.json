@@ -39,14 +39,8 @@
       "title": "Tokyo Ghoul",
       "mangaka": "Sui Ishida",
       "protagonist": "Kaneki Ken",
-      "id": 6
-    },
-    {
-      "title": "The Girl From the Other Side",
-      "mangaka": "Nagabe",
-      "protagonist": "Shiva",
-      "image": "https://a.storyblok.com/f/178900/1059x1500/1d989d3b6a/ddfc27b0aa9266a6a4e2f18cc6aa8a511614889605_main.jpg/m/filters:quality(95)format(webp)",
-      "id": 7
+      "id": 6,
+      "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/480x720/catalog/crunchyroll/6c496691df13a15aaf9be63caa7fc429.jpe"
     }
   ]
 }
