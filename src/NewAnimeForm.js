@@ -6,6 +6,7 @@ function NewAnimeForm({updateFormData, addAnime={addAnime}}) {
             <input onChange={updateFormData} type="text" name="title" placeholder="Title" />
             <input onChange={updateFormData} type="text" name="mangaka" placeholder="Mangaka" />
             <input onChange={updateFormData} type="text" name="protagonist" placeholder="protagonist" />
+            <input onChange={updateFormData} type="text" name="image" placeholder="image" />
             <button type="submit">Add Anime</button>
             </form>
         </div>
