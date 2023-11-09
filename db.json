@@ -35,6 +35,13 @@
       "mangaka": "Sui Ishida",
       "protagonist": "Kaneki Ken",
       "id": 6
+    },
+    {
+      "title": "The Girl From the Other Side",
+      "mangaka": "Nagabe",
+      "protagonist": "Deer guy",
+      "image": "https://a.storyblok.com/f/178900/1059x1500/1d989d3b6a/ddfc27b0aa9266a6a4e2f18cc6aa8a511614889605_main.jpg/m/filters:quality(95)format(webp)",
+      "id": 7
     }
   ]
 }
